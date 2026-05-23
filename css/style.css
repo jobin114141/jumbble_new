@@ -2337,7 +2337,7 @@ figure.dotted-bg:before {
 }
 
 .site-footer {
-  padding: 60px 0 0 0;
+  padding: 60px 0;
 }
 
 .site-footer a {
@@ -2580,5 +2580,15 @@ figure.dotted-bg:before {
     padding: 8px 24px; /* larger touch target on mobile */
     font-size: 0.95rem;
     min-height: 42px;
+  }
+}
+@media (max-width: 767.98px) {
+  .btn-mobile-full {
+    width: 100% !important;
+    display: block !important;
+    text-align: center;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    margin-bottom: 10px !important;
   }
 }
